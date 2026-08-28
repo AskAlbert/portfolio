@@ -29,10 +29,31 @@ article{
     flex:4 1 0;
     
 }
+
 .text-content{
-    flex:1
+    flex:1;
+    margin: 8px;
 }
-img{
+h2{
+    margin: 0;
+}
+a{
+    color:#38BDF8;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    
+}
+i{
+    -webkit-text-stroke: 0.7px currentColor;
+    margin:0;
+}
+p{
+    margin:4px 0 0;
+}
+
+
+.card-img{
     height:200px;
     width: 200px;
     background-color: blue;
