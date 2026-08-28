@@ -16,16 +16,18 @@ main{
 }
 article{
     width: 60%;
+    margin-top: 20px;
 }
 .card{
     background-color: #1E293B;
     color: #F1F5F9;
     padding:10px;
-    margin:10px;
+    margin:20px;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
     flex:4 1 0;
+    
 }
 .text-content{
     flex:1
@@ -35,6 +37,7 @@ img{
     width: 200px;
     background-color: blue;
     margin:5px;
+    border-radius: 25px;
 
 }
 
