@@ -18,6 +18,7 @@ article{
     width: 60%;
     margin-top: 20px;
 }
+
 .card{
     background-color: #1E293B;
     color: #F1F5F9;
@@ -34,14 +35,14 @@ article{
     flex:1;
     margin: 8px;
 }
+
 h2{
     margin: 0;
+    
 }
 a{
     color:#38BDF8;
-    font-size: medium;
-    text-decoration: none;
-    text-align: center;
+    margin:2px;
     
 }
 i{
@@ -50,6 +51,9 @@ i{
 }
 p{
     margin:4px 0 0;
+}
+button{
+    display:none;
 }
 
 
@@ -69,4 +73,38 @@ footer{
     color:white;
     text-align: center;
     line-height: 3rem;
+}
+@media (max-width:800px) {
+    article{
+        width:auto;
+    }
+    .card-img{
+        width:150px;
+        height:150px;
+    }
+    p{
+        display:none;
+    }
+    .card-header{
+    text-align: center;
+    }
+    .text-content{
+        margin:4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+
+        display:block;
+        margin:10px;
+        background-color: transparent;
+        color:#F1F5F9;
+        background-color: #94A3B8;
+        text-decoration: bold;
+        border-radius: 5px;
+        padding:4px;
+    }
+   
 }
