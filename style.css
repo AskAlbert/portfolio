@@ -100,11 +100,12 @@ footer{
         display:block;
         margin:10px;
         background-color: transparent;
-        color:#F1F5F9;
-        background-color: #94A3B8;
+        color:#0F172A;;
+        background-color: #38BDF8;
         text-decoration: bold;
+        border: none;
         border-radius: 5px;
-        padding:4px;
+        padding:10px;
     }
    
 }
