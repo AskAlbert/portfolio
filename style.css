@@ -99,13 +99,19 @@ footer{
 
         display:block;
         margin:10px;
-        background-color: transparent;
         color:#0F172A;;
         background-color: #38BDF8;
         text-decoration: bold;
         border: none;
         border-radius: 5px;
         padding:10px;
+    }
+    .back-button{
+        padding: 2px 10px;
+        font-size: 25px;
+        width:45px;
+        line-height: 30px;
+        font-weight: bold;
     }
    
 }
