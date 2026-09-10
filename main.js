@@ -10,7 +10,7 @@ buttons.forEach((button)=>{
         if(imgVisible===true){
             image.hidden=true;
             text.style.display="block";
-            button.innerText="\u{1F868}";
+            button.innerText="\u2190";
             button.classList.add("back-button");
             imgVisible=false;
         }
