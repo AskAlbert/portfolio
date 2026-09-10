@@ -3,7 +3,6 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    max-height: 100vh;
 }
 main{
     flex:1;
@@ -27,7 +26,6 @@ article{
     border-radius: 25px;
     display: flex;
     flex-direction: row;
-    flex:4 1 0;
     
 }
 
@@ -45,10 +43,6 @@ a{
     margin:2px;
     
 }
-i{
-    -webkit-text-stroke: 0.7px currentColor;
-    margin:0;
-}
 p{
     margin:4px 0 0;
 }
@@ -60,7 +54,6 @@ button{
 .card-img{
     height:200px;
     width: 200px;
-    background-color: blue;
     margin:5px;
     border-radius: 25px;
 
@@ -99,9 +92,8 @@ footer{
 
         display:block;
         margin:10px;
-        color:#0F172A;;
+        color:#0F172A;
         background-color: #38BDF8;
-        text-decoration: bold;
         border: none;
         border-radius: 5px;
         padding:10px;
